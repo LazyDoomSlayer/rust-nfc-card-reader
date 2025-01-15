@@ -1,0 +1,6 @@
+$ cd ~/Downloads
+$ wget https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/pcsc-lite-libs-2.0.3-1.fc40.x86_64.rpm
+$ wget https://dl.fedoraproject.org/pub/fedora/linux/releases/40/Everything/x86_64/os/Packages/p/pcsc-lite-2.0.3-1.fc40.x86_64.rpm
+$ sudo dnf install ./pcsc-lite-2.0.3-1.fc40.x86_64.rpm ./pcsc-lite-libs-2.0.3-1.fc40.x86_64.rpm
+#...
+$ sudo systemctl restart pcscd.service
